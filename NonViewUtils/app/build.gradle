@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "org.adnroid.share.utils.example"
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    // 配置不同构建方式下的混淆情况
+    buildTypes {
+        debug {
+            //minifyEnabled true // 是否混淆
+            //shrinkResources true // 是否去除无效的资源文件
+            //proguardFiles getDefaultProguardFile('proguard-android.txt'),'debug-proguard-rules.pro'
+        }
+        release {
+            minifyEnabled true // 是否混淆
+            shrinkResources true // 是否去除无效的资源文件
+            // 混淆的配置文件
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    // 这个是解决lint报错的代码
+    lintOptions {
+        abortOnError false
+    }
+}
+repositories {
+    flatDir {
+        dirs 'libs' //this way we can find the .aar file in libs folder
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:22.1.1'
+    compile project(':utilslib')
+    // 依赖的aar
+    //compile(name:'xxxxx', ext:'aar')
+}
