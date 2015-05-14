@@ -1,4 +1,4 @@
-package org.adnroid.share.utils.example;
+package org.android.share.utils.example;
 
 import org.android.share.utils.activity.QuickBaseActivity;
 
