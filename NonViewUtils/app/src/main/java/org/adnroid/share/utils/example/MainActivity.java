@@ -6,6 +6,18 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
+/**
+ * App的入口Activity.
+ * 
+ * @author Jack Tony
+ * @date 2015/5/10
+ * 
+ * @author kale
+ * @date 2015/5/11
+ * 
+ * @author <a href="http://blog.csdn.net/lmj623565791">Hongyang</a>
+ * @date 2015/5/14
+ */
 public class MainActivity extends ActionBarActivity {
 
     @Override
