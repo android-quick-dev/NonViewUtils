@@ -1,6 +1,7 @@
 package org.adnroid.share.utils.example;
 
-import android.support.v7.app.ActionBarActivity;
+import org.android.share.utils.activity.QuickBaseActivity;
+
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -18,12 +19,32 @@ import android.view.MenuItem;
  * @author <a href="http://blog.csdn.net/lmj623565791">Hongyang</a>
  * @date 2015/5/14
  */
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends QuickBaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
+
+    @Override
+    protected int getContentViewId() {
+        return 0;
+    }
+
+    @Override
+    protected void findViews() {
+
+    }
+
+    @Override
+    protected void beforeSetViews() {
+
+    }
+
+    @Override
+    protected void setViews() {
+
     }
 
     @Override

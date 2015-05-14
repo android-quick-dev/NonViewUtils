@@ -1,4 +1,4 @@
-package org.adnroid.share.utils.time;
+package org.android.share.utils.time;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

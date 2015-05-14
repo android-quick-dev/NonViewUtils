@@ -1,4 +1,4 @@
-package org.adnroid.share.utils.contacts;
+package org.android.share.utils.contacts;
 
 /**
  * 联系人的模型类.有联系人姓名和电话两个字段.

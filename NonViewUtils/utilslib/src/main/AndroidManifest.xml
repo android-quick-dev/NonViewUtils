@@ -1,4 +1,4 @@
-<manifest package="org.adnroid.share.utils"
+<manifest package="org.android.share.utils"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application

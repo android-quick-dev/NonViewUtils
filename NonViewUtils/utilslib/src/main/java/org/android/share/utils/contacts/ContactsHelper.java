@@ -1,4 +1,4 @@
-package org.adnroid.share.utils.contacts;
+package org.android.share.utils.contacts;
 
 import android.content.ContentResolver;
 import android.content.ContentUris;

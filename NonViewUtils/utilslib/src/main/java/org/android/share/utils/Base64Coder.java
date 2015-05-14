@@ -1,4 +1,4 @@
-package org.adnroid.share.utils;
+package org.android.share.utils;
 
 //EPL, Eclipse Public License, V1.0 or later, http://www.eclipse.org/legal
 //LGPL, GNU Lesser General Public License, V2.1 or later, http://www.gnu.org/licenses/lgpl.html

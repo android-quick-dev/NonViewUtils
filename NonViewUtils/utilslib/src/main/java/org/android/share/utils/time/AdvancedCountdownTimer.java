@@ -1,4 +1,4 @@
-package org.adnroid.share.utils.time;
+package org.android.share.utils.time;
 
 import android.os.Handler;
 import android.os.Message;

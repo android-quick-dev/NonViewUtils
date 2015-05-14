@@ -1,4 +1,4 @@
-package org.adnroid.share.utils;
+package org.android.share.utils;
 
 import android.content.res.Resources;
 import android.graphics.Bitmap;

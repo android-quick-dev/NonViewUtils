@@ -1,4 +1,4 @@
-package org.adnroid.share.utils.activity;
+package org.android.share.utils.activity;
 
 import android.app.Activity;
 import android.content.Context;

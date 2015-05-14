@@ -1,7 +1,7 @@
-package org.adnroid.share.utils.photo;
+package org.android.share.utils.photo;
 
 
-import org.adnroid.share.utils.IntentUtil;
+import org.android.share.utils.IntentUtil;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -103,6 +103,6 @@ public class GetSimplePhotoActivity extends Activity {
     }
 
     public void finishAndReturnBitmap(Uri uri) {
-        GetSimplePhotoHelper.getInstance(this).getSelectedPhoto(uri);
+        org.android.share.utils.photo.GetSimplePhotoHelper.getInstance(this).getSelectedPhoto(uri);
     }
 }

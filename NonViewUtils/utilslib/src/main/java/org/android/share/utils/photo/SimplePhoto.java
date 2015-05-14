@@ -1,4 +1,4 @@
-package org.adnroid.share.utils.photo;
+package org.android.share.utils.photo;
 
 import android.graphics.Bitmap;
 import android.net.Uri;
