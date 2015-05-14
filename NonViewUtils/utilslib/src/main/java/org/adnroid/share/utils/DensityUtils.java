@@ -4,7 +4,7 @@ import android.content.Context;
 import android.util.TypedValue;
 
 /**
- * 常用单位转换的辅助类
+ * 常用单位转换的辅助类，涉及到单位转换的方法都在这里.
  */
 public class DensityUtils {
 

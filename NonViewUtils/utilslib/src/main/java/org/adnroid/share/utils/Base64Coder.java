@@ -1,10 +1,5 @@
 package org.adnroid.share.utils;
 
-/**
- * 下面这些注释是下载这个类的时候本来就有的，本来要删除的，但看了下竟然是license
- * 好东西，留在注释里，以备不时之用，大家有需要加license的可以到下面的网址找哦
- */
-
 //EPL, Eclipse Public License, V1.0 or later, http://www.eclipse.org/legal
 //LGPL, GNU Lesser General Public License, V2.1 or later, http://www.gnu.org/licenses/lgpl.html
 //GPL, GNU General Public License, V2 or later, http://www.gnu.org/licenses/gpl.html

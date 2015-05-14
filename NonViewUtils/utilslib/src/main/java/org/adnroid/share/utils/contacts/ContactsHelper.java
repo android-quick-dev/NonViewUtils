@@ -13,7 +13,7 @@ import android.text.TextUtils;
 import java.util.ArrayList;
 
 /**
- * 操作手机联系人的帮助类.
+ * 操作手机联系人的帮助类，提供了增删改查单个联系人的方法.
  * @author Jack Tony
  * @date 2015/5/11
  */

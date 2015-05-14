@@ -11,7 +11,7 @@ import android.os.Build;
 import java.io.ByteArrayOutputStream;
 
 /**
- * 方便使用bitmap的工具类
+ * 方便使用bitmap的工具类，提供了bitmap转换，缩略等实用的方法.
  * @author Jack Tony
  * @date 2015/4/25
  * @see "http://www.cnblogs.com/tianzhijiexian/p/4273997.html"

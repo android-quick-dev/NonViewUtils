@@ -7,7 +7,7 @@ import android.util.Log;
 import android.view.View;
 
 /**
- * 快速开发的activity框架.
+ * 快速开发的activity基础框架类，提供了getView来简化findViewById,并且提供了构建框架.
  * @author Jack Tony<br>
  * @date 2015/4/25
  */

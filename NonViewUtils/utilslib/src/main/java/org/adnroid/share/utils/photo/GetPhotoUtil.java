@@ -17,7 +17,7 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * 从相册
+ * 从相册或相机得到照片并返回simplePhoto的类.
  * @author Jack Tony
  * @date 2015/4/25
  */

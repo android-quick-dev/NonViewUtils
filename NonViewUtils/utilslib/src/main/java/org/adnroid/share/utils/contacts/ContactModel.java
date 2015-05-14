@@ -1,7 +1,7 @@
 package org.adnroid.share.utils.contacts;
 
 /**
- * 联系人的模型类.
+ * 联系人的模型类.有联系人姓名和电话两个字段.
  * @author Jack Tony
  * @date 2015/5/11
  */

@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 
 /**
- * 操作输入法的工具类.
+ * 操作输入法的工具类。可以方便的关闭和显示输入法.
  * @author Jack Tony
  * @see "http://www.cnblogs.com/tianzhijiexian/p/4229410.html"
  * @see "http://www.cnblogs.com/tianzhijiexian/p/4460151.html"

@@ -4,7 +4,7 @@ import android.util.SparseArray;
 import android.view.View;
 
 /**
- * 比较规范的View holder
+ * 比较规范独立的的ViewHolder.
  * @author Jack Tony
  * 
  * @see "http://www.cnblogs.com/tianzhijiexian/p/4157889.html"

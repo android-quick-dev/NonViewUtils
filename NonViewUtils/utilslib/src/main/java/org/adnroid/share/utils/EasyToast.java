@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Toast;
 
 /**
- * 让toast变得更简易的封装类.
+ * 让toast变得更简易的封装类，可以提供线程中使用的toast。还可以通过showByDuration()来设置toast的显示时间.
  * @author Jack Tony
  * @date 2015/4/29
  */
@@ -70,7 +70,7 @@ public class EasyToast {
      *
      * @param duration toast显示的时间（单位：ms）
      */
-    public void show(int duration) {
+    public void showByDuration(int duration) {
         this.duration = duration;
         mHandler.post(mToastThread);
     }
