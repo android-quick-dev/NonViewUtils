@@ -29,7 +29,7 @@
  */
 ```
 ## 文档  
-[[http://android-quick-dev.github.io/NonViewUtils/javadoc/](http://android-quick-dev.github.io/NonViewUtils/javadoc/)]([http://android-quick-dev.github.io/NonViewUtils/javadoc/](http://android-quick-dev.github.io/NonViewUtils/javadoc/) "开发文档")
+[[http://android-quick-dev.github.io/NonViewUtils/NonViewUtils/utilslib/build/docs/javadoc/)]([http://android-quick-dev.github.io/NonViewUtils/javadoc/](http://android-quick-dev.github.io/NonViewUtils/javadoc/) "开发文档")
 
 ## 参与进来
 欢迎提交你在开发中总结的方便好用的代码，如果发现有更好的办法来实现项目中提到的功能，欢迎去修改代码，让工程变得更加完善、高效。如果你对于项目有建议或者发现了问题，欢迎提出。希望你在指出问题时描述的尽可能详尽，以方便我们快速改进。
