@@ -26,8 +26,8 @@ javadoc {
     options {
         encoding "UTF-8"
         charSet 'UTF-8'
-        author true // 支持author标记
-        version true // 支持version标记
+        author true 
+        version true 
         links "http://docs.oracle.com/javase/7/docs/api"
     }
 }
