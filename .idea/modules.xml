@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/NonViewUtils/app/src/androidTest/androidTest.iml" filepath="$PROJECT_DIR$/NonViewUtils/app/src/androidTest/androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NonViewUtils/utilslib/src/androidTest/androidTest1.iml" filepath="$PROJECT_DIR$/NonViewUtils/utilslib/src/androidTest/androidTest1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NonViewUtils/app/src/main/main.iml" filepath="$PROJECT_DIR$/NonViewUtils/app/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NonViewUtils/utilslib/src/main/main1.iml" filepath="$PROJECT_DIR$/NonViewUtils/utilslib/src/main/main1.iml" />
+    </modules>
+  </component>
+</project>
+
