@@ -1,8 +1,10 @@
 # NonViewUtils
 不涉及视图的工具类，逻辑类的集合。收集开发中最方便好用的工具类和逻辑类，让开发变得简单。  
 
-# 协作规范  
-- **修改原有的类**    
+## 协作规范  
+### 代码的编码格式是utf-8  
+
+### 修改原有的类     
 如果你需要修改项目中原本的类，请在类的开头添加你的名字或名字+个人网址，同时也添加@date作为修改日期。  
 ```java
 /**
@@ -18,7 +20,7 @@
  * @date 2015/5/14
  */
 ```
--  **新增一个类**   
+### 新增一个类  
 如果你想添加一个类到项目中，请到/NonViewUtils/utilslib/src/main/java/org/android/share/utils/下，取一个妥善的包名或者放在先有包名中，同时也请添加@author和@date。  
 在类的第一行请添加注释，不要太简单，字多点也没关系的，注释最后请用英文的句号结尾。    
 ```java
@@ -27,7 +29,13 @@
  * @author Jack Tony
  * @date 2015/5/14
  */
-```
+```  
+### 注释规范  
+注释规范请参考JavaDoc的注释规范，因为我们最终要通过javadoc生成代码文档，所以需要对于public标记的方法和类都写上注释。  
+
+### 生成文档
+utilslib中已经做好了javadoc的gradle的task，使用Android Studio右侧的Gradle图形化工具，选择utilslib->Tasks->other->javadoc就可以在utilslib的build->outputs->docs->javadoc中找到文档了。之后把文档提交到gh-pages分支就完成了文档的生成和上传工作。  
+
 ## 文档  
 [[http://android-quick-dev.github.io/NonViewUtils/NonViewUtils/utilslib/build/docs/javadoc/)]([http://android-quick-dev.github.io/NonViewUtils/javadoc/](http://android-quick-dev.github.io/NonViewUtils/javadoc/) "开发文档")
 
