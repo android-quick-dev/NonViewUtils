@@ -20,9 +20,10 @@
 ```
 -  新增一个类  
 如果你想添加一个类到项目中，请取一个妥善的包名或者放在先有包名中，同时也请添加@author和@date。  
-在类的第一行请添加简短的注释，注释最后请用英文的句号结尾。    
+在类的第一行请添加注释，不要太简单，注释最后请用英文的句号结尾。    
 ```java
 /**
+ * 这是一个方便操作SD卡文件的工具类，可以读、存文件
  * @author Jack Tony
  * @date 2015/5/14
  */
@@ -40,7 +41,7 @@ your name: <example@main.com>
 
 ## License
 
-    Copyright 2013 Diego Carlos Lima
+    Copyright 2013 
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
